@@ -28,6 +28,9 @@ It contains information about passengers on the Titanic, such as demographics, t
 
 
 
+
+
+
 ![Dataset Preview](images/dataset_head.png)
 
 ---
