@@ -2,7 +2,7 @@
 
 This notebook explores the Titanic dataset, performs data cleaning, feature engineering, and applies machine learning models (Logistic Regression and Random Forest) to predict passenger survival.
 ---
-![Survival by Age Group](images/survival_by_agegroup.png)
+
 
 ## Step 2: Dataset Overview
 
@@ -42,7 +42,7 @@ Key steps:
 - Visualized survival rates across different passenger groups.  
 
 📌 Example: Survival rates by Age Group  
-![Survival by Age Group](images/survival_by_age.png)  
+![Survival by Age Group](images/survival_by_agegroup.png) 
 
 📌 Example: Correlation Heatmap  
 ![Correlation Heatmap](images/correlation_heatmap.png)  
