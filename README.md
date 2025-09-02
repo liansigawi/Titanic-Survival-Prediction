@@ -26,10 +26,7 @@ It contains information about passengers on the Titanic, such as demographics, t
 | Embarked     | Port of Embarkation (C = Cherbourg, Q = Queenstown, S = Southampton) |
 
 
-
-
-
-
+<br><br><br>
 
 ![Dataset Preview](images/dataset_head.png)
 
