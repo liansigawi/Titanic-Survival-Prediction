@@ -94,7 +94,12 @@ Separate features (X) and target (y), then split into **training** and **validat
 Train a baseline **Logistic Regression** model and evaluate it on the validation split:  
 - Metrics: Accuracy, Precision, Recall, F1  
 - Purpose: simple, interpretable baseline for comparison
-- 
+
+### 📊 Logistic Regression Results
+Performance of the Logistic Regression model on the validation set:
+
+![Logistic Regression Results](images/Logistic_Regression.png)
+
 ![Logistic_Regression](images/Logistic_Regression.png)
 ---
 
@@ -102,9 +107,8 @@ Train a baseline **Logistic Regression** model and evaluate it on the validation
 Train a **Random Forest Classifier** and evaluate it on the same validation split:  
 - Metrics: Accuracy, Precision, Recall, F1  
 - Purpose: stronger non-linear ensemble model for performance comparison
-
-
-
+  
+![Random_Forest](images/Random_Forest.png)
 
 
 
