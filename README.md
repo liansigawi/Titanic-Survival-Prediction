@@ -4,7 +4,7 @@ This notebook explores the Titanic dataset, performs data cleaning, feature engi
 ---
 
 
-## Step 2: Dataset Overview
+## Step 1: Dataset Overview
 
 The dataset comes from the famous Kaggle Titanic competition.  
 It contains information about passengers on the Titanic, such as demographics, ticket class, and survival status.
@@ -32,7 +32,7 @@ It contains information about passengers on the Titanic, such as demographics, t
 
 ---
 
-## 📊 Step 3: Exploratory Data Analysis (EDA)  
+## 📊 Step 2: Exploratory Data Analysis (EDA)  
 
 We explored the dataset to better understand the relationships between features and survival outcomes.  
 Key steps:  
@@ -49,7 +49,7 @@ Key steps:
 
 ---
 
-## 🔧 Step 4: Handle Missing Values  
+## 🔧 Step 3: Handle Missing Values  
 
 To ensure the dataset is complete and ready for modeling, we handled missing data:  
 - **Age**: Imputed using a **Random Forest Regressor**.  
@@ -61,7 +61,7 @@ To ensure the dataset is complete and ready for modeling, we handled missing dat
 
 ---
 
-## 🏗️ Step 5: Feature Engineering  
+## 🏗️ Step 4: Feature Engineering  
 
 We created new features and transformed existing ones to improve model performance:  
 - **Title**: Extracted from the passenger’s name (e.g., Mr, Mrs, Miss, etc.).  
@@ -75,7 +75,7 @@ We created new features and transformed existing ones to improve model performan
 ---
 ---
 
-## 🔧 Step 6: Encode & Normalize Data
+## 🔧 Step 5: Encode & Normalize Data
 Convert categorical variables into numeric format and scale continuous features:
 - **Encoding**:
   - `Sex` → binary (0 = female, 1 = male)
@@ -85,12 +85,12 @@ Convert categorical variables into numeric format and scale continuous features:
 
 ---
 
-## ✂️ Step 7: Split Data
+## ✂️ Step 6: Split Data
 Separate features (X) and target (y), then split into **training** and **validation** sets for fair model evaluation.
 
 ---
 
-## ⚙️ Step 8: Run Logistic Regression
+## ⚙️ Step 7: Run Logistic Regression
 Train a baseline **Logistic Regression** model and evaluate it on the validation split:  
 - Metrics: Accuracy, Precision, Recall, F1  
 - Purpose: simple, interpretable baseline for comparison
@@ -102,7 +102,7 @@ Performance of the Logistic Regression model on the validation set:
 
 ---
 
-## 🌳 Step 9: Run Random Forest
+## 🌳 Step 8: Run Random Forest
 Train a **Random Forest Classifier** and evaluate it on the same validation split:  
 - Metrics: Accuracy, Precision, Recall, F1  
 - Purpose: stronger non-linear ensemble model for performance comparison
