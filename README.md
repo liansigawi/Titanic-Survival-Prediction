@@ -100,15 +100,19 @@ Performance of the Logistic Regression model on the validation set:
 
 ![Logistic Regression Results](images/Logistic_Regression.png)
 
-![Logistic_Regression](images/Logistic_Regression.png)
 ---
 
 ## 🌳 Step 9: Run Random Forest
 Train a **Random Forest Classifier** and evaluate it on the same validation split:  
 - Metrics: Accuracy, Precision, Recall, F1  
 - Purpose: stronger non-linear ensemble model for performance comparison
+
+  ### 🌲 Random Forest Results
+Performance of the Random Forest Classifier on the validation set:
+
+![Random Forest Results](images/Random_Forest.png)
   
-![Random_Forest](images/Random_Forest.png)
+
 
 
 
