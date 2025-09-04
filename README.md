@@ -67,15 +67,41 @@ We created new features and transformed existing ones to improve model performan
 - **Title**: Extracted from the passenger’s name (e.g., Mr, Mrs, Miss, etc.).  
 - **FamilySize**: Combined `SibSp + Parch + 1`.  
 - **IsAlone**: Binary variable indicating if passenger traveled alone.  
-- **Categorical Encoding**:  
-  - `Sex` → encoded as 0/1.  
-  - `Embarked` → one-hot encoded.  
-- **Normalization**: Applied Min-Max scaling to continuous variables (`Age`, `Fare`).  
+
 
 📌 Example: Distribution of new feature *FamilySize*  
 ![Family Size Distribution](images/family_size.png)  
 
 ---
+---
+
+## 🔧 Step 6: Encode & Normalize Data
+Convert categorical variables into numeric format and scale continuous features:
+- **Encoding**:
+  - `Sex` → binary (0 = female, 1 = male)
+  - `Embarked` → one-hot (`Embarked_C`, `Embarked_Q`, `Embarked_S`)
+- **Normalization**:
+  - Standardized `Age` and `Fare` (mean = 0, std = 1)
+
+---
+
+## ✂️ Step 7: Split Data
+Separate features (X) and target (y), then split into **training** and **validation** sets for fair model evaluation.
+
+---
+
+## ⚙️ Step 8: Run Logistic Regression
+Train a baseline **Logistic Regression** model and evaluate it on the validation split:  
+- Metrics: Accuracy, Precision, Recall, F1  
+- Purpose: simple, interpretable baseline for comparison
+
+---
+
+## 🌳 Step 9: Run Random Forest
+Train a **Random Forest Classifier** and evaluate it on the same validation split:  
+- Metrics: Accuracy, Precision, Recall, F1  
+- Purpose: stronger non-linear ensemble model for performance comparison
+
 
 
 
