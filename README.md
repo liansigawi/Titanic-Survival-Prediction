@@ -56,7 +56,7 @@ To ensure the dataset is complete and ready for modeling, we handled missing dat
 - **Cabin**: Dropped due to excessive missing values.  
 
 📌 Example: Age distribution before and after imputation  
-![Age Imputation](images/age_imputation.png)  
+
 
 ---
 
